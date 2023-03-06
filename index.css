@@ -1,0 +1,116 @@
+/*Universal Styles */
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/Users/alejandrouser/Desktop/Projects/flexbox-business-site-starting/resources/tea_paper_background.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    font-family: "Space Mono", monospace;
+}
+/*Header Section*/
+header {
+    background-color: rgba(192, 159, 68, 0.907);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-flow: column;
+    z-index: 3;
+    border-bottom: 5px solid white;
+}
+header .nav {
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+header .title {
+    font-size: 2.75rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+}
+header a {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+}
+/*Team Members Section*/
+.introduction {
+    text-align: center;
+    background-color: #c09e44;
+    border: 5px solid white;
+    border-radius: 10px;
+} 
+.team {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.image-container {
+    padding: 5px;
+    background-color:#c09e44;
+    width: 18%;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.image-container img {
+    width: 100%;
+    height: 350px;
+}
+/*Our Mission Section*/
+.statement {
+    text-align: center;
+    background-color: rgba(192, 159, 68, 0.7);
+
+}
+/*Portfolio Section*/
+.examples {
+    text-align: center;
+    background-color: #c09e44;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.portfolio {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/*Hire Us!*/
+.hire {
+    text-align: center;
+    background-color: rgba(192, 159, 68, 0.7);
+    border: 5px solid white;
+    border-radius: 5px;
+}
+/*In Memoriam*/
+.memoriam {
+    text-align: center;
+    background-color: rgba(192, 159, 68, 0.7);
+    border: 5px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-flow:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#paul {
+    width: auto;
+    max-width: 18%;
+    align-self: center;
+}
