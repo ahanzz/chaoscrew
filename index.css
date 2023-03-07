@@ -8,8 +8,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dtea%2Bstain%2Bbackground&psig=AOvVaw2REbj31wEuM72X3ui43E1_&ust=1678277584812000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCOD5z6vlyf0CFQAAAAAdAAAAABAE');
-    background-size:cover;
+    background-image: url('../tea_paper_background.jpeg');
     background-repeat: no-repeat;
     padding-top: 250px;
     font-family: "Space Mono", monospace;
