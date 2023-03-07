@@ -10,6 +10,7 @@ body {
     padding: 0;
     background-image: url("./tea_paper_background.jpeg");
     background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 250px;
     font-family: "Space Mono", monospace;
 }
