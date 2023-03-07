@@ -8,7 +8,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../tea_paper_background.jpeg');
+    background-image: url('./tea_paper_background.jpeg');
     background-size:cover;
     background-repeat: no-repeat;
     padding-top: 250px;
